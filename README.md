@@ -24,11 +24,11 @@ This project analyzes annual temperature data from two sources: GCAG (Global Cli
 **pandas:** For data manipulation and CSV file handling.
 
 ### Usage
-1)Clone this repository to your local machine.
-2)Make sure you have the pandas library installed.
-3)Run the code using Python (e.g. python annual_temp_processing.py).
-4)The separated data will be saved to new CSV files in the /content/ directory.
-5)The script will output the total number of rows in the original dataset and each separated dataset.
+- Clone this repository to your local machine.
+- Make sure you have the pandas library installed.
+- Run the code using Python (e.g. python annual_temp_processing.py).
+- The separated data will be saved to new CSV files in the /content/ directory.
+- The script will output the total number of rows in the original dataset and each separated dataset.
 
 ### Load the dataset into CSV files  
 gg_df = pd.read_csv("/content/annual_temp_gcag.csv")  
